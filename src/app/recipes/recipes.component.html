@@ -1,0 +1,21 @@
+<div class="row">
+  <div>
+    <p>This is a basic CRUD application made with:</p>
+      <ol>Front-End - Angular</ol>
+      <ol>Back-End/DB- Firebase (realtime database)</ol>
+      <p>It contains the following funcionalities:</p>
+      <ol>- Adding new Recipies by clicking on the green button, which will let you add it's informartion such as name, image, desc and ingredients</ol>
+      <ol>- After adding the recipe, this will be saved locally (Meaning it will go away if you refresh the page) but it can permanently be saved with the manage button on the top right corner</ol>
+      <ol>- <b>Manage button will let you Save all the recipes that you have been added locally, update them and also Fetch all the one that you have been saved</b></ol>
+      <ol>- You can select, edit, delete the recipes locally but you need to save from the manager in order to persist the data</ol>
+      <ol>- The Shopping List works as a to do list basically, it's data only persist locally</ol>
+      <ol>- I added a couple of recipes on the database so you can fetch from the start so have fun!!!</ol>
+  </div>
+  
+  <div class="col-md-5">
+    <app-recipe-list></app-recipe-list>
+  </div>
+  <div class="col-md-7">
+    <router-outlet></router-outlet>
+  </div>
+</div>
