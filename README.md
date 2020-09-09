@@ -1,6 +1,10 @@
 # Master Chef
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+* To get this project working please clone the repository into your local or download the zip files
+* The inside the project folder run: npm install in order to fetch all the dependencies needed
+* Then run ng serve for running the server locally
+* Navigate to http://localhost:4200/ and have fun!!
 
 ## Development server
 
